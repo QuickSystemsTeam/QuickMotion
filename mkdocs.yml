@@ -1,0 +1,49 @@
+site_name: QuickMotion Documentation
+site_author: Quick Systems
+site_description: Turn your own character into a working Game Animation Sample (GASP) character in one click, with hands and fingers right.
+copyright: Copyright &copy; 2026 Quick Systems &middot; <a href="mailto:quicksystemssupport@gmail.com">quicksystemssupport@gmail.com</a>
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.footer
+    - toc.integrate
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle: {icon: material/brightness-7, name: Dark mode}
+    - scheme: slate
+      primary: indigo
+      toggle: {icon: material/brightness-4, name: Light mode}
+markdown_extensions:
+  - tables
+  - toc: {permalink: true}
+  - admonition
+  - pymdownx.superfences
+nav:
+  - "Home": index.md
+  - "Tutorial":
+      - "Before you start": tutorial/before-you-start.md
+      - "Make your GASP character": tutorial/make-your-gasp-character.md
+      - "Play": tutorial/play.md
+      - "Change it later": tutorial/change-it-later.md
+  - "User Guide":
+      - "The settings card": guide/the-settings-card.md
+      - "Supported characters": guide/supported-characters.md
+      - "What Rebuild changes": guide/what-rebuild-changes.md
+      - "Characters made of several meshes": guide/characters-made-of-several-meshes.md
+      - "Hands and fingers": guide/hands-and-fingers.md
+      - "Make it your player": guide/make-it-your-player.md
+      - "Retarget an animation pack": guide/retarget-an-animation-pack.md
+      - "Use your character in another project": guide/use-your-character-in-another-project.md
+      - "Upgrading from QuickMotion Lite": guide/upgrading-from-quickmotion-lite.md
+  - "Reference":
+      - "Settings": reference/settings.md
+      - "What QuickMotion makes": reference/what-quickmotion-makes.md
+      - "Script it": reference/script-it.md
+      - "Limits and FAQ": reference/limits-and-faq.md
+      - "Changelog": reference/changelog.md
+  - "Credits": credits.md
