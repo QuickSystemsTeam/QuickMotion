@@ -3,7 +3,7 @@
 
 
 1. In the **Content Browser**, find your character's Skeletal Mesh.
-2. Right-click it and choose **Make GASP Character**.
+2. Right-click the mesh itself (not empty space in the folder) and choose **Make GASP Character**.
 3. A small window shows what QuickMotion found (for example "Skeleton: UE5 Mannequin") and where it will put the new
    files. Click **Create**.
 
