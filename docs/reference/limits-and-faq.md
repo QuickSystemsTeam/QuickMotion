@@ -55,6 +55,12 @@ first (see [Use your character in another project](../guide/use-your-character-i
 QuickMotion doesn't change GASP, so issues in GASP's own animation or movement show on GASP's mannequin too. Check
 Epic's Game Animation Sample forum threads for known issues.
 
+**While playing, my character suddenly turned into one of GASP's characters (for example Echo).**
+That's GASP's own character switcher, not QuickMotion: the buttons on the floor of GASP's level switch the
+player's look to GASP's sample characters (they set GASP's console setting `DDCvar.VisualOverride`). Stop playing
+and press Play again; if the other character stays, restart the editor (console settings last for the editor
+session). Your character's files aren't changed.
+
 **Does it swap my character to a different skeleton?**
 No. Your character keeps its own skeleton; QuickMotion drives it from GASP's mannequin as it plays.
 
