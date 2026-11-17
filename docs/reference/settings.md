@@ -13,6 +13,7 @@ One card per character, named `GASP_<Name>_Setup`, in the character's folder. Do
 |---|---|---|
 | **Character Mesh** | Your character's Skeletal Mesh. QuickMotion reads it and never changes it. To use a different mesh, pick it here and click Rebuild: your character Blueprint stays the same. | you can change it |
 | **Fix Hands** | Line up wrists and fingers with GASP's own mannequin so hands look right while walking, running and vaulting. Leave on unless you're fixing hands yourself. | you can change it, full version |
+| **Fix Size** | Meshes far from any person's size (under 50 cm or over 3 m tall, usually wrong units on export or import) are shown at the size of GASP's mannequin, so they fit GASP's moves and levels. Your mesh isn't changed. Untick to keep your mesh's own size, then click Rebuild. | you can change it |
 | **Result** | What the last Create or Rebuild found and did. Click Rebuild to refresh it. | shown, not editable |
 
 **More**
@@ -25,7 +26,8 @@ One card per character, named `GASP_<Name>_Setup`, in the character's folder. Do
 | **Matched By** | How QuickMotion recognised your character's skeleton. | shown, not editable |
 | **Bone Matching** | How each body part maps onto your character's bones. Items marked 'needs check' were best guesses: fix them if needed, then click Rebuild. | you can change it |
 | **Output Folder Name** | The folder that holds everything QuickMotion made for this character. To put it somewhere else, move the whole folder in the Content Browser: Rebuild keeps working. | shown, not editable |
-| **Fixed Copy** | Only set when your mesh's bones carry a scale (the common Blender metre-units export problem), which makes characters float. QuickMotion then uses this corrected copy instead. Your own mesh is never changed; Rebuild refreshes the copy. | shown, not editable |
+| **Fixed Copy** | Only set when your mesh needs correcting: its bones carry a scale (the common Blender metre-units export problem, which makes characters float), or Fix Size resized it to human size. QuickMotion then uses this corrected copy instead. Your own mesh is never changed; Rebuild refreshes the copy. | shown, not editable |
+| **Display Scale** | How much Fix Size resized your character (1 means its own size). The resized character is the corrected copy under Fixed Copy; your mesh itself is never changed. | shown, not editable |
 | **Character Blueprint** | The character Blueprint QuickMotion made. It's yours to edit: Rebuild never overwrites it. | shown, not editable |
 
 ### Bone Matching entries

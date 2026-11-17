@@ -10,8 +10,10 @@ Yes, in the same project. It's free on Fab. QuickMotion doesn't include, copy or
 reads them to build your character.
 
 **Which characters work?**
-Humanoids with two arms, two legs and a head: MetaHuman, VRoid / VRM, Mixamo, UE4 and UE5 Mannequin characters, and
-custom humanoids (Blender, Character Creator, Daz, your own rigs). See [Supported characters](../guide/supported-characters.md#supported-characters).
+Humanoids with two arms, two legs and a head: MetaHuman, VRoid / VRM, Mixamo (including meshes rigged by its
+auto-rigger), UE4 and UE5 Mannequin characters, Blender rigs with any bone names (Rigify exported game-ready), and
+game-asset packs such as KayKit, Quaternius, Kenney and Polygonal Mind. See
+[Supported characters](../guide/supported-characters.md#supported-characters). Character Creator and Daz haven't been tested yet.
 Quadrupeds, creatures with extra limbs and other non-humanoids don't work.
 
 **What's the difference between QuickMotion and QuickMotion Lite?**
@@ -32,10 +34,14 @@ Don't enable both plugins in one project. To move up, see [Upgrading from QuickM
 No. QuickMotion only makes new files in a new folder (see [What QuickMotion makes](what-quickmotion-makes.md#what-quickmotion-makes)). If your
 mesh needs fixing (the Blender units problem), it makes a corrected copy and leaves yours as it is.
 
-**My character is lying down, or far too big or small.**
-That comes from how the mesh was imported, and the settings card's **Result** line says so with the fix: re-import it
-standing up, or with a different Import Uniform Scale, then click **Rebuild**. Characters exported facing backwards,
-or with the Blender units problem, are fixed for you.
+**My character is far too big or small.**
+With **Fix Size** on (the default), characters imported far from human size are shown at the size of GASP's
+mannequin; your mesh isn't changed. See [Supported characters](../guide/supported-characters.md#supported-characters).
+
+**My character is lying down.**
+That comes from how the mesh was exported, and the settings card's **Result** line says so with the fix: re-import it
+standing up, then click **Rebuild**. Characters exported facing backwards, or with the Blender units problem, are
+fixed for you.
 
 **How much does each character cost in performance?**
 Very little: the character's own mesh is animated from GASP's mannequin every frame. On our test PC, each QuickMotion
