@@ -12,6 +12,9 @@ window. It works with humanoid characters (two arms, two legs, a head) from:
 | VRoid Studio (VRM) | VRoid / VRM |
 | Anything else with a humanoid skeleton: Blender, Character Creator, Daz, your own rig | Custom humanoid |
 
+Custom humanoids are read by their bone names and shape, so most rigs work, but not every source has been tried
+yet: the [Roadmap](../roadmap.md) lists the characters 1.0 was tested with and the ones we're testing next.
+
 **QuickMotion Lite only works with characters on the UE5 Mannequin skeleton** (Manny, Quinn, or characters made for
 them). Everything else in this table needs the full QuickMotion.
 

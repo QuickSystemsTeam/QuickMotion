@@ -46,4 +46,5 @@ nav:
       - "Script it": reference/script-it.md
       - "Limits and FAQ": reference/limits-and-faq.md
       - "Changelog": reference/changelog.md
+  - "Roadmap": roadmap.md
   - "Credits": credits.md
