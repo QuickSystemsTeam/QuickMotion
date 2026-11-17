@@ -34,6 +34,8 @@ body, one arm or no arms must be refused with a clear message.
   version (only the DEF- bones, in one hierarchy).
 - **Rigs whose legs aren't parented to the hips.** Unreal keeps only one root bone on import, so separate leg roots
   are dropped before QuickMotion sees them; QuickMotion says so.
+- **VRM accessories moved by constraints** (such as a robot arm that copies the real arm). Unreal's glTF importer
+  doesn't bring VRM constraints across, so those pieces stay in their rest pose. The body, hair and clothes move.
 - **Files whose skeleton doesn't line up with the mesh** (an unapplied armature rotation or scale). QuickMotion
   points to the fix in Blender.
 
