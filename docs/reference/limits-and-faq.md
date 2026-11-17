@@ -35,8 +35,9 @@ No. QuickMotion only makes new files in a new folder (see [What QuickMotion make
 mesh needs fixing (the Blender units problem), it makes a corrected copy and leaves yours as it is.
 
 **My character is far too big or small.**
-With **Fix Size** on (the default), characters imported far from human size are shown at the size of GASP's
-mannequin; your mesh isn't changed. See [Supported characters](../guide/supported-characters.md#supported-characters).
+With **Fix Size** on **Auto** (the default), characters imported far from human size are shown at the size of GASP's
+mannequin; your mesh isn't changed. Set it to **Human size** to always use the mannequin's height (for example an adult
+character that arrived 60 cm tall), then click **Rebuild**. See [Supported characters](../guide/supported-characters.md#supported-characters).
 
 **My character is lying down.**
 That comes from how the mesh was exported, and the settings card's **Result** line says so with the fix: re-import it

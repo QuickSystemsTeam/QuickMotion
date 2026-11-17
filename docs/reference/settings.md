@@ -13,7 +13,7 @@ One card per character, named `GASP_<Name>_Setup`, in the character's folder. Do
 |---|---|---|
 | **Character Mesh** | Your character's Skeletal Mesh. QuickMotion reads it and never changes it. To use a different mesh, pick it here and click Rebuild: your character Blueprint stays the same. | you can change it |
 | **Fix Hands** | Line up wrists and fingers with GASP's own mannequin so hands look right while walking, running and vaulting. Leave on unless you're fixing hands yourself. | you can change it, full version |
-| **Fix Size** | Meshes far from any person's size (under 50 cm or over 3 m tall, usually wrong units on export or import) are shown at the size of GASP's mannequin, so they fit GASP's moves and levels. Your mesh isn't changed. Untick to keep your mesh's own size, then click Rebuild. | you can change it |
+| **Fix Size** | How big your character is shown. Auto: meshes far from any person's size (under 50 cm or over 3 m tall, usually wrong units on export or import) are shown at the size of GASP's mannequin; other sizes are kept. Human size: always the mannequin's height (GASP's moves and levels are made for it). Own size: never resized. Your mesh isn't changed. Click Rebuild after changing it. | you can change it |
 | **Result** | What the last Create or Rebuild found and did. Click Rebuild to refresh it. | shown, not editable |
 
 **More**

@@ -42,11 +42,17 @@ click Rebuild. (To fix the source file too: in Blender set **Unit Scale** to 0.0
 the scale with Ctrl+A, and export again.)
 
 **Characters imported at the wrong size.** Downloads often arrive far too big or too small (a character 4 m tall,
-or 10 cm tall) because of the units they were exported in. With **Fix Size** on (the default), QuickMotion shows such
-a character at the size of GASP's mannequin, so it fits GASP's moves and levels: it makes a corrected copy at that
-size (**More > Fixed Copy**; **More > Display Scale** shows by how much), and the **Result** line says so. Your mesh
-isn't changed. Characters between 50 cm and 3 m tall (children, chibis, ogres) keep their
-own size. Untick **Fix Size** to always keep the mesh's own size.
+or 10 cm tall) because of the units they were exported in. **Fix Size** on the settings card has three choices:
+
+| Fix Size | What it does |
+|---|---|
+| **Auto** (the default) | Characters under 50 cm or over 3 m tall (unit mistakes) are shown at the size of GASP's mannequin. Characters in between (children, chibis, ogres) keep their own size. |
+| **Human size** | Always the mannequin's height. Use it when an adult character arrived small but not tiny (say 60 cm): GASP's vaults and climbs are made for human size. |
+| **Own size** | Never resized. |
+
+When your character is resized, QuickMotion makes a corrected copy at that size (**More > Fixed Copy**; **More >
+Display Scale** shows by how much), and the **Result** line says so. Your mesh isn't changed. After changing Fix Size,
+click **Rebuild**.
 
 **Other import problems** QuickMotion can't fix for you are named on the settings card's **Result** line, with what
 to do: a mesh that's lying down (re-import it standing up), or a skeleton that doesn't line up with its mesh (an
