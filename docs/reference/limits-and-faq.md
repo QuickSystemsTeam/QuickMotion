@@ -22,6 +22,7 @@ Quadrupeds, creatures with extra limbs and other non-humanoids don't work.
 |---|---|---|
 | Right-click → Make GASP Character, settings card, Rebuild | ✓ | ✓ |
 | Characters on the UE5 Mannequin skeleton | ✓ | ✓ |
+| Fix Size, and a card that only says Ready when its check passes | ✓ | ✓ |
 | MetaHuman, VRoid, Mixamo, UE4 Mannequin, custom humanoids | | ✓ |
 | Fix Hands (wrists and fingers lined up with GASP's mannequin) | | ✓ |
 | Characters made of several meshes (face, hair, clothes) | | ✓ |
