@@ -13,7 +13,7 @@ reads them to build your character.
 Humanoids with two arms, two legs and a head: MetaHuman, VRoid / VRM, Mixamo (including meshes rigged by its
 auto-rigger), UE4 and UE5 Mannequin characters, Blender rigs with any bone names (Rigify exported game-ready), and
 game-asset packs such as KayKit, Quaternius, Kenney and Polygonal Mind. See
-[Supported characters](../guide/supported-characters.md#supported-characters). Character Creator and Daz haven't been tested yet.
+[Supported characters](../guide/supported-characters.md#supported-characters). Character Creator has been tested with one character so far; Daz not yet.
 Quadrupeds, creatures with extra limbs and other non-humanoids don't work.
 
 **What's the difference between QuickMotion and QuickMotion Lite?**

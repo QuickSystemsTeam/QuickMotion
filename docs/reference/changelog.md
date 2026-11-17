@@ -7,7 +7,8 @@
   so bone names no longer matter: Blender's default names, any naming style, glTF number suffixes, Unity-style names.
 - Newly supported: meshes rigged by Mixamo's auto-rigger, VRM avatars, Blender rigs (Rigify exported game-ready),
   game-asset packs (KayKit, Kenney, Polygonal Mind), Sketchfab downloads split into several meshes, A-pose rigs,
-  characters lying down or facing backwards, and rigs with extra IK and control bones.
+  characters lying down or facing backwards, rigs with extra IK and control bones, and rigs whose skin sits on twist
+  bones rather than the thigh, calf and arm bones (Character Creator style), with finger names such as `Mid1`.
 - **Fix Size**: characters imported far too big or small are shown at human size (new setting, on by default).
 - The settings card only says **Ready** when its own check passes (legs to the feet, arms on the right sides, head at
   the top, every part on bones that move the mesh); otherwise it says what to fix.

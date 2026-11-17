@@ -19,6 +19,7 @@ packaged Windows games (a player plus 10 characters).
 | Game-asset packs | KayKit Adventurers (Knight, Mage, Rogue), Kenney Animated Characters, Quaternius Universal Base Characters (glTF and FBX), Polygonal Mind 100 Avatars |
 | Sketchfab and itch.io downloads | rigs with Blender's default bone names, a Unity-style humanoid, a body scan split into several meshes, hand-named rigs ("Upper Arm L") |
 | Blender | A-pose rigs, Rigify exported game-ready |
+| Picked at random (Sketchfab, OpenGameArt, TurboSquid) | two Mixamo-rigged Sketchfab characters, a cowboy imported 7 m tall, a 61 cm character, an OpenGameArt low-poly humanoid, a stylised skeleton on a Character Creator rig (skin on twist bones) |
 
 **Generated variants of five rigs** (Quaternius, Mixamo, VRoid, Kenney, Rigify), each with a known answer the test
 checks automatically: bones renamed in every common style (Blender `.L`/`.R`, `Upper Arm L`, Unity `LeftUpperArm`,
@@ -38,7 +39,7 @@ body, one arm or no arms must be refused with a clear message.
 
 ## Testing next
 
-- **Character Creator and Daz exports.**
+- **Character Creator and Daz exports** (one Character Creator rig tested so far; Daz not yet).
 - **VRoid through the VRM4U plugin** (we test VRM files through Unreal's own glTF importer today).
 - **More Sketchfab and itch.io downloads**: send us the ones you use.
 - **Very stylised bodies** (tiny legs, huge heads, very long arms) in more poses.

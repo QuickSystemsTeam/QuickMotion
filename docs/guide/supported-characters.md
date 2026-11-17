@@ -16,7 +16,7 @@ all. Tested kinds of characters:
 | Blender Rigify, exported game-ready (only the DEF- bones, in one hierarchy) | Custom humanoid |
 | Game-asset characters: KayKit, Quaternius, Kenney, Polygonal Mind and similar packs | Custom humanoid (or Mixamo) |
 
-Character Creator and Daz exports haven't been tested yet: the [Roadmap](../roadmap.md) lists everything that has
+Character Creator has been tested with one character so far, and Daz exports not yet: the [Roadmap](../roadmap.md) lists everything that has
 been tested and what's next. If your character doesn't work, please tell us (Roadmap, *Report a character*).
 
 **Importing a VRM (.vrm) file.** Unreal doesn't open .vrm files directly, but a .vrm is a glTF file inside: rename
